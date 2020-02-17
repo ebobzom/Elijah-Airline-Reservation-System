@@ -1,3 +1,6 @@
+CREATE DATABASE tiidelab;
+USE tiidelab;
+
 CREATE TABLE users(
 user_id INT(11) AUTO_INCREMENT PRIMARY KEY NOT NULL,
 first_name VARCHAR(22) NOT NULL,
